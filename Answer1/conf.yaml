@@ -1,0 +1,18 @@
+create_data:
+  food_raw_file: FoodBase_curated.xml
+  it_raw_file: it_articles.json
+  food_vocab_file_name: food_vocab
+  it_vocab_file_name: it_vocab
+  limit_for_vocab_length: 50
+  max_sentence_per_corpus: 1000
+  cfg_file: cfg_rules
+  max_depth_cfg: 5
+  total_utterances: 5000000
+  model_data_size: 20000
+  model_data_file_name: data
+
+train_model:
+  - Eset
+  - Slovnaft
+  - Duslo Sala
+  - Matador Puchov

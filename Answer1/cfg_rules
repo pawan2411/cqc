@@ -1,0 +1,4 @@
+S -> NP VP
+NP -> N
+NP -> ADJ N
+VP -> VB NP
